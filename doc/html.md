@@ -18,6 +18,11 @@ explicitly add custom styles based on whether JavaScript is disabled (`.no-js`)
 or enabled (`.js`). Using this technique also helps [avoid the
 FOUC](https://www.paulirish.com/2009/avoiding-the-fouc-v3/).
 
+.myclass { /* CSS code for all versions of your page goes here */ },
+ .js .myclass { /* This CSS code will only show up if JS is enabled */ }
+  and .no-js .myclass { /* This CSS code will only show up if JS is
+   disabled. */ }
+
 ### Language Attribute
 
 Please consider specifying the language of your content by adding a
