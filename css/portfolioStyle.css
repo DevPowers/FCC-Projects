@@ -1,0 +1,21 @@
+
+.responsive-block{
+  max-width: 100%;
+  height: auto;
+  display:block;
+}
+.flex-container-tribute{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: black;
+  color: beige;
+  align-items: center;
+}
+.flex-container-tribute-items{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
