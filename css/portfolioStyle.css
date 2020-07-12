@@ -1,21 +1,25 @@
 
-.responsive-block{
+/*responsive image that never goes larger than original width and keeps ratio*/
+.responsive-image{
   max-width: 100%;
   height: auto;
   display:block;
 }
+/*Flex: Arrange items in a single center paged column*/
 .flex-container-tribute{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
   background-color: black;
   color: beige;
-  align-items: center;
 }
-.flex-container-tribute-items{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+/*Grid: Arrange items in a single center paged column*/
+.grid-container-tribute{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  background-color: black;
+  color: beige;
+
 }
+
