@@ -1,6 +1,6 @@
 # FCC-Projects
 
-This is my portfolio website which will host all of my various web development projects onto a single platform. 
+This is my portfolio website which will host all of my various web development projects onto a single platform. The Master branch is being deployed through github at https://devpowers.github.io/FCC-Projects/
 
 ## Getting Started
 
